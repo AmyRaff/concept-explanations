@@ -1,0 +1,6 @@
+1 mass
+2 nodule
+3 irregular_hilum
+4 irregular_lung_parenchyma
+5 irregular_mediastinum
+6 unremarkable

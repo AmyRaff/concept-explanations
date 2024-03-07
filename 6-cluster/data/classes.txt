@@ -1,0 +1,2 @@
+1 Lung_Cancer
+2 Not_Lung_Cancer
