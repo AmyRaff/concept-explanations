@@ -2,7 +2,7 @@
 
 This repo does not contain the data used in experiments. Data can be downloaded from https://physionet.org/content/mimic-cxr-jpg/2.0.0/ after signing Physionet's data use agreement.
 
-Scripts for the original 28-concept experiment can be found in the 28-concept directory. Scripts for the fully clustered experiment can be found in the 6-cluster directory.
+Scripts for the original 28-concept experiment can be found in the 28-concept directory. Scripts for the fully clustered experiment can be found in the 6-cluster directory. Note that these scripts are for the binary domain of lung cancer classification. To expand to multiclass, simply edit your data metadata (classes.txt) and change the N_ATTRIBUTES and N_CLASSES values in the Python scripts.
 
 Data must be in the following format:
 
@@ -17,3 +17,5 @@ Data must be in the following format:
         - (JPG IMAGE FILES - NOT INCLUDED)
 
 Concept extraction scripts can be found in the concept extraction directory.
+
+Phrases associated with clinical concepts are provided in **concepts_to_phrases.png**.
