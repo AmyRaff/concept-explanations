@@ -4,9 +4,15 @@ This repo does not contain the data used in experiments. Data can be downloaded 
 
 This repo contains the original source code for building and refining the original ClinicXAI / XpertXAI pipeline. Code is for the binary classification task of lung cancer detection (ClinicXAI) but can easily be expanded to the multiclass domain (XpertXAI) by editing data text files and changing the N_ATTRIBUTES and N_CLASSES values in the Python scripts.
 
+This repo serves as supporting code and reproducibility for two publications:
+
+**1) ClinicXAI (binary lung cancer application): Transparent and clinically interpretable AI for lung cancer detection in chest X-rays. Accepted to IEEE ICHI 2025.**
+
+**2) XpertXAI (multiclass application): Explainability Through Human-Centric Design for XAI in Lung Cancer Detection. Accepted to the IJCAI 2025 HAI Track.**
+
 We present our original work as proof of concept, using report phrases as direct clinical concepts (28 concepts directory), as well as the refinement step of clustering these phrases into consolidated clinical concepts under radiologist guidance (6 concepts directory), which is the approach presented in both our ClinicXAI and XpertXAI publications.
 
-Phrases associated with clinical concepts for six target pathologies (Lung Cancer, Healthy, Pneumonia, Pneumothorax, Pleural Effusion, Cardiomegaly) are provided in **concepts_to_phrases.png**.
+Phrases associated with clinical concepts for all six target pathologies (Lung Cancer, Healthy, Pneumonia, Pneumothorax, Pleural Effusion, Cardiomegaly) are provided in **concepts_to_phrases.png**.
 
 Data must be in the following format:
 
